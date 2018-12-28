@@ -1,12 +1,12 @@
-package com.gupao.bigdata.spark.demo
+package com.mask.bigdata.spark.demo
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.scalatest.{BeforeAndAfter, FunSuite}
 
-class ComputeUVTest extends FunSuite with BeforeAndAfter {
+class ComputePVTest extends FunSuite with BeforeAndAfter {
 
   private val master = "local[2]"
-  private val appName = "ComputeUV-Test"
+  private val appName = "ComputePV-Test"
 
   private var sc: SparkContext = _
 
@@ -27,7 +27,7 @@ class ComputeUVTest extends FunSuite with BeforeAndAfter {
   test("pv compute") {
     // ip,url,ref_url,cookie,time_stamp
     val testLogRDD = sc.textFile("nginx_example.txt")
-    val resultRDD = ComputeUV.computeUV(testLogRDD)
+    val resultRDD = ComputePV.computePV(testLogRDD)
     val result = resultRDD.collect()
     val keyValueMap = result.toMap
     println(keyValueMap)

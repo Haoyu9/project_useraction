@@ -1,4 +1,4 @@
-package com.gupao.bigdata.mapreduce;
+package com.mask.bigdata.mapreduce;
 
 import java.io.IOException;
 import java.util.StringTokenizer;

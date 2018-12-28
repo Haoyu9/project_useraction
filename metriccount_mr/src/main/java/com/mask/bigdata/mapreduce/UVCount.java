@@ -1,4 +1,4 @@
-package com.gupao.bigdata.mapreduce;
+package com.mask.bigdata.mapreduce;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;

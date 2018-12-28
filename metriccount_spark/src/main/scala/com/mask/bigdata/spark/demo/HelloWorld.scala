@@ -1,4 +1,4 @@
-package com.gupao.bigdata.spark.demo
+package com.mask.bigdata.spark.demo
 
 object HelloWorld {
 

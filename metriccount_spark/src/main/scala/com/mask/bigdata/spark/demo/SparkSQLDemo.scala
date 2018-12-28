@@ -1,4 +1,4 @@
-package com.gupao.bigdata.spark.demo
+package com.mask.bigdata.spark.demo
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
