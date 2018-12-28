@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/metriccount_mr/metriccount_mr.iml" filepath="$PROJECT_DIR$/metriccount_mr/metriccount_mr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metriccount_spark/metriccount_spark.iml" filepath="$PROJECT_DIR$/metriccount_spark/metriccount_spark.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project_useraction.iml" filepath="$PROJECT_DIR$/project_useraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/useraction_monitor/useraction_monitor.iml" filepath="$PROJECT_DIR$/useraction_monitor/useraction_monitor.iml" />
+    </modules>
+  </component>
+</project>
