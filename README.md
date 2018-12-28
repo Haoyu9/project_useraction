@@ -8,7 +8,7 @@
 2、如何运行该系统
 ----------------------------------------------------------
  - 确保已经安装Docker/Nginx/Flume/MySQL/Maven/MapReduce/Spark/Npm/NodeJs
- - 参考视频安装配置OpenCart
+ - 参考百度安装配置OpenCart
    - 在配置Nginx时请注意Nginx采集日志使用的log_format
      - log_format acc_log '$remote_addr\t$scheme://$host$request_uri\t$http_referer\t$uid_got\t$time_local';
  - 使用Flume采集数据到HDFS
